@@ -1,5 +1,5 @@
 ## Hafta - 1 Ödevleri
-<img src="https://i.gifer.com/4Snj.gif" width="250" height="250"/>
+<img src="https://i.pinimg.com/originals/32/a2/ce/32a2cedb577aaabcb2d58535fddf4cfb.gif"/>
 **Hello Visitor**
 
 This is the **1st Task** of the first week which is given by **Patika.Dev TÖDEB Bootcamp**
