@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "1b03dad8-40bc-42cb-8f71-597b80d88356",
+		"name": "Patika.Dev - jsonplaceholder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16724560"
+	},
+	"item": [
+		{
+			"name": "GET Method with String Query",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST Request with Body",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"fetch('https://jsonplaceholder.typicode.com/posts', {\r",
+							"  method: 'POST',\r",
+							"  body: JSON.stringify({\r",
+							"    title: 'Patika.dev TÖDEB Bootcamp',\r",
+							"    body: 'Burası Çağatay Şahin Tarafından Eklenmiştir',\r",
+							"    userId: 1,\r",
+							"  }),\r",
+							"  headers: {\r",
+							"    'Content-type': 'application/json; charset=UTF-8',\r",
+							"  },\r",
+							"})\r",
+							"  .then((response) => response.json());"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Request with Entered Data",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "userId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "Patika.Dev TÖDEB Bootcamp",
+							"type": "text"
+						},
+						{
+							"key": "body",
+							"value": "Burası Çağatay Şahin Tarafından Değiştirilmiştir",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/1",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/1",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
