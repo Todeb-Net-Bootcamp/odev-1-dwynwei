@@ -3,3 +3,5 @@
 **Hello Visitor**
 
 This is the **1st Task** of the first week which is given by **Patika.Dev TÖDEB Bootcamp**
+
+HTTP Request test on **[JSONPlaceHolder](https://jsonplaceholder.typicode.com/)** via **Postman**.
