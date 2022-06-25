@@ -5,3 +5,6 @@
 This is the **1st Task** of the first week which is given by **Patika.Dev TÖDEB Bootcamp**
 
 HTTP Methods test on **[JSONPlaceHolder](https://jsonplaceholder.typicode.com/)** via **Postman**.
+
+
+[![dwynwei's GitHub stats](https://github-readme-stats.vercel.app/api?username=dwynwei)](https://github.com/dwynwei/github-readme-stats)
