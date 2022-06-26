@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Patika.Dev_Abstract_Class_Hw.Abstact
 {
+
+    // TODEB Card Abstract Sınıfı Özellikleri Tanımlanmıştır.
     public abstract class TODEBCard
     {
         public string AccountType { get; set; }
