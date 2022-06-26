@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Patika.Dev_Abstract_Class_Hw.Concrete
 {
+    //Ayrı Bir Şekilde Credit card kısmı için Card type tanıımlanmıştır.
     public class CreditCard : TODEBCard
     {
         public string CardType { get; set; }
