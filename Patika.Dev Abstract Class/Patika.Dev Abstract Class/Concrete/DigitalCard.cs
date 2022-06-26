@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Patika.Dev_Abstract_Class_Hw.Concrete
 {
+    //Ayrı Bir Şekilde Digital card kısmı için Guid tanıımlanmıştır.
     public class DigitalCard : TODEBCard
     {
-
         public Guid DigitalWalletId { get
             {
                 return new Guid(Guid.NewGuid().ToString());
